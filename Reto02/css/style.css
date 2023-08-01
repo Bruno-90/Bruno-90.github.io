@@ -1,0 +1,155 @@
+header{
+    width: 100%;
+    height: 40px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul a {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
+nav ul a:hover{
+    text-decoration: underline;
+}
+
+
+.appG:hover{
+  
+   background-color: rgba(72, 235, 40, 0.5);
+cursor: pointer;
+
+}
+.usuarioG:hover{
+    border-radius: 50%;
+    background-color: rgba(100, 100, 100, 0.5);
+ cursor: pointer;
+ 
+ }
+body
+{
+
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  
+ 
+}
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+padding-top: 10px;
+position: relative;
+    
+}
+.logo{
+    margin-bottom: -40px;
+    margin-top: -60px;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.contenedorBuscador{
+    z-index: 1;
+    width: 600px;
+    
+    margin-top: 10px;
+}
+.buscador{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+margin: 0 auto;
+margin-bottom: 30px;
+border-radius: 80px;
+border:1px solid #ddd;
+}
+.buscador input{
+    width: 510px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 18px;
+    
+    color: #444;
+    font-size: 16px;
+}
+.buscador:hover{
+    box-shadow: -1px 1px 6px #bbb;
+}
+.botones{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+
+}
+
+.botones button{
+    padding: 10px 15px;
+    margin: 0px 2px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    color: #53565a;
+    outline: none;
+
+}
+footer{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background: #f2f2f2;
+    margin-top: 70px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer .Pais{
+    color: rgba(0, 0, 0, 54);
+    font-size: 15px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #e4e4e4;
+}
+footer .pieDePagina{
+    color: rgba(0, 0, 0, 54);
+    font-size: 15px;
+    height: 50%;
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+footer .pieDePagina a{
+    color: #5f6368;
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+}
+footer .pieDePagina .derecha a{
+    justify-content: f;
+
+}
