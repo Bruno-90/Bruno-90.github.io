@@ -1,0 +1,50 @@
+body{
+    background: orange;
+    height: 100vh;
+
+}
+header{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contenedor{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.lista{
+    display: flex;
+flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+ 
+.lista label{
+    text-decoration:none;
+}
+#enlistado{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: none;
+    flex-direction: column;
+    background: orange ;
+    width: 150px;
+    height: 214px;
+    border: 2px solid green;
+    border-radius: 5%;
+}
+
+#nombre{
+    border-radius: 5%;
+}
+
+#completo{
+    text-transform: capitalize ;
+}

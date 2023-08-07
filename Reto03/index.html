@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<title>Reto 03</title>
+
+<body>
+
+    <script src="main.js"></script>
+<header>
+
+    <h1 id="titulo">Lista de tarea diarias </h1>
+</header> 
+<div class="Contenedor">
+   
+<section >
+
+      
+       <label for="nombre">Ingrese su nombre:</label>
+       <input type="text" id="nombre" onchange="cambioColor(this)" onfocus="foco(this)">
+
+    <div class="lista">
+    <li><input type="checkbox" name="" id="tarea1" onclick="checkear('tar1')"><label for="tarea1" id="tar1">Ir a entrenar</label></li>
+    <li><input type="checkbox" name="" id="tarea2" onclick="checkear('tar2')"><label for="tarea2" id="tar2">Cocinar </label></li>
+    <li><input type="checkbox" name="" id="tarea3" onclick="checkear('tar3')"><label for="tarea3" id="tar3">Escuchar musica</label></li>
+    <li><input type="checkbox" name="" id="tarea4" onclick="checkear('tar4')"><label for="tarea4" id="tar4">Darle de comer a manchas</label></li>
+    <li><input type="checkbox" name="" id="tarea5" onclick="checkear('tar5')"><label for="tarea5" id="tar5">Ver los videos de CodeaRock</label></li>
+    <li><input type="checkbox" name="" id="tarea6" onclick="checkear('tar6')"><label for="tarea6" id="tar6">Practicar programacion</label></li>
+    <li><input type="checkbox" name="" id="tarea7" onclick="checkear('tar7')"><label for="tarea7" id="tar7">Hacer las compras</label></li>
+    <li><input type="checkbox" name="" id="tarea8" onclick="checkear('tar8')"><label for="tarea8" id="tar8">Limpieza de la casa</label></li>
+    <li><input type="checkbox" name="" id="tarea9" onclick="checkear('tar9')"><label for="tarea9" id="tar9">Lavar el auto</label></li>
+    <li><input type="checkbox" name="" id="tarea10" onclick="checkear('tar10')"><label for="tarea10" id="tar10">Ordenar la ropa</label></li>
+    </div>
+    </section>
+    <section class="enlistado2">
+        <div id="enlistado" >
+        <p id="tareaTerminada"></p>
+        <p id="completo"></p>
+</div>
+</section>
+
+
+   <footer>
+
+ 
+   </footer>
+</div>
+</body>
+</html>
