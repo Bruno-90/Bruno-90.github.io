@@ -1,6 +1,12 @@
 body{
-    background: orange;
     height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    background: url(/images/fondoPrincipal.jpeg)no-repeat ;
+    background-size: cover;
+    font-family: 'simpsonfontregular';
+    color:#FFD90F;
+    
 
 }
 header{
@@ -8,6 +14,9 @@ header{
     align-content: center;
     align-items: center;
     justify-content: center;
+    font-family: 'Fishing';
+    font-size:x-large;
+    margin-top: 50px;
 }
 
 .Contenedor{
@@ -15,13 +24,16 @@ header{
     align-content: center;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 li{
     text-decoration: none;
     list-style: none;
+
 }
 .lista{
-    display: flex;
+    font-family: 'simpsonfontregular';
+     display: flex;
 flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
@@ -29,20 +41,29 @@ flex-direction: column;
  
 .lista label{
     text-decoration:none;
+    text-decoration-color: black;
 }
 #enlistado{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: white;
+    font-family:'simpsonfontregular';
     display: none;
     flex-direction: column;
-    background: orange ;
+    justify-content: space-between;
     width: 150px;
-    height: 214px;
+    height: 240px;
     border: 2px solid green;
     border-radius: 5%;
+    background: url(/images/fondolista3.jpg)no-repeat;
+    background-size:150px 240px;
+    color: black;
+   
 }
-
+section{
+    font-family: 'simpsonfontregular';
+}
 #nombre{
     border-radius: 5%;
+    font-family: 'simpsonfontregular';
 }
 
 #completo{

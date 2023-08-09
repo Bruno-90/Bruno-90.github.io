@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Fishing';
+    src: url('FishingRegular.woff2') format('woff2'),
+        url('FishingRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
