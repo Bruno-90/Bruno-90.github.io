@@ -17,7 +17,7 @@
     tareaT.innerHTML = nombre2.value+' Cumpliste con la tarea'+' '+tareaRealizada.innerText
     }
     if(cantidad==10){
-        document.getElementById('enlistado').style.background='url(/images/fondolista2.jpg)no-repeat'
+        document.getElementById('enlistado').style.background='url(../images/fondolista2.jpg)no-repeat'
         document.getElementById('enlistado').style.backgroundSize='150px 240px'
         completo.innerHTML='!!!Felicitaciones cumplistes las 10 tareas!!!'
  }
